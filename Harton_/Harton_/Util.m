@@ -345,6 +345,8 @@
 
 + (void)test {
     NSLog(@"I am git Test");
+    
+    NSLog(@"Test CHenkOut");
 }
 
 @end
