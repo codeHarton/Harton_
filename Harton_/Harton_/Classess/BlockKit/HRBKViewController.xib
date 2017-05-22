@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HRBKViewController">
+            <connections>
+                <outlet property="start" destination="UTb-cP-K0k" id="KyB-TM-y8B"/>
+                <outlet property="textField" destination="bCa-KS-Kkm" id="EQh-24-IKc"/>
+                <outlet property="view" destination="iN0-l3-epB" id="rti-qD-b5B"/>
+                <outlet property="webView" destination="ms2-Yk-Ecn" id="cgC-Bn-VyN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://www.baidu.com" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bCa-KS-Kkm">
+                    <rect key="frame" x="22" y="93" width="276" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="38j-6z-w4G"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTb-cP-K0k">
+                    <rect key="frame" x="303" y="100" width="50" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="gx2-Fe-G0K"/>
+                    </constraints>
+                    <state key="normal" title="start"/>
+                </button>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ms2-Yk-Ecn">
+                    <rect key="frame" x="22" y="152" width="331" height="441"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </webView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ngU-Fo-Ojp">
+                    <rect key="frame" x="22" y="615" width="331" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="UTb-cP-K0k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="100" id="0k5-O2-AeS"/>
+                <constraint firstItem="UTb-cP-K0k" firstAttribute="leading" secondItem="bCa-KS-Kkm" secondAttribute="trailing" constant="5" id="5Xp-HN-7dw"/>
+                <constraint firstAttribute="trailing" secondItem="UTb-cP-K0k" secondAttribute="trailing" constant="22" id="LZf-qk-58d"/>
+                <constraint firstAttribute="bottom" secondItem="ngU-Fo-Ojp" secondAttribute="bottom" constant="22" id="RkB-cf-eQb"/>
+                <constraint firstItem="ms2-Yk-Ecn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="WZe-hb-61p"/>
+                <constraint firstAttribute="trailing" secondItem="ms2-Yk-Ecn" secondAttribute="trailing" constant="22" id="ZDc-hG-dux"/>
+                <constraint firstItem="ngU-Fo-Ojp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="cC0-SL-BEZ"/>
+                <constraint firstItem="UTb-cP-K0k" firstAttribute="centerY" secondItem="bCa-KS-Kkm" secondAttribute="centerY" id="cCL-Vd-LS9"/>
+                <constraint firstAttribute="trailing" secondItem="ngU-Fo-Ojp" secondAttribute="trailing" constant="22" id="dum-U7-Sgz"/>
+                <constraint firstItem="bCa-KS-Kkm" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="22" id="jRv-IC-1Ww"/>
+                <constraint firstItem="ms2-Yk-Ecn" firstAttribute="top" secondItem="UTb-cP-K0k" secondAttribute="bottom" constant="22" id="lWC-BK-eRt"/>
+                <constraint firstItem="ngU-Fo-Ojp" firstAttribute="top" secondItem="ms2-Yk-Ecn" secondAttribute="bottom" constant="22" id="sly-HK-cl0"/>
+                <constraint firstItem="ngU-Fo-Ojp" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="zVH-ii-aMZ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="52.5" y="107.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HRAFNViewController">
+            <connections>
+                <outlet property="button" destination="1oQ-tO-VA9" id="wI3-Cs-EoM"/>
+                <outlet property="progressView" destination="Ooh-Oa-KQH" id="7zL-dD-fOo"/>
+                <outlet property="view" destination="iN0-l3-epB" id="oLe-rD-YtN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Ooh-Oa-KQH">
+                    <rect key="frame" x="62" y="232.5" width="250" height="2"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="h0K-FH-qPk"/>
+                    </constraints>
+                    <color key="progressTintColor" red="0.25882352939999997" green="0.71372549019999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="trackTintColor" red="0.83137254900000002" green="0.83137254900000002" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                </progressView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1oQ-tO-VA9">
+                    <rect key="frame" x="44" y="278.5" width="287" height="32"/>
+                    <color key="backgroundColor" red="0.98823529409999999" green="0.60392156860000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="开始"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ooh-Oa-KQH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ujq-Zw-LhW"/>
+                <constraint firstItem="1oQ-tO-VA9" firstAttribute="top" secondItem="Ooh-Oa-KQH" secondAttribute="bottom" constant="44" id="VMl-yT-z6M"/>
+                <constraint firstItem="1oQ-tO-VA9" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jrK-rF-GoV"/>
+                <constraint firstItem="1oQ-tO-VA9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="44" id="oVC-bp-9zV"/>
+                <constraint firstItem="Ooh-Oa-KQH" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-100" id="xCe-8G-8ZS"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="166.5"/>
+        </view>
+    </objects>
+</document>

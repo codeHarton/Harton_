@@ -1,0 +1,34 @@
+platform :ios, '8.0'
+#use_frameworks!
+target 'Harton_' do
+pod 'BlocksKit', '~> 2.2.5'
+pod 'AFNetworking', '~> 3.1.0'
+#pod 'YYKit', '~> 1.0.9'
+pod 'YYModel', '~> 1.0.4'
+pod 'SDWebImage', '~> 4.0.0'
+pod 'Mantle', '~> 2.1.0'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'MTLFMDBAdapter', '~> 0.3.2'
+pod 'MJExtension', '~> 3.0.13'
+pod 'JRSwizzle', '~> 1.0'
+pod 'Aspects', '~> 1.4.1'
+pod 'KVOController', '~> 1.2.0'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.5.beta'
+pod 'ReactiveCocoa', '~> 2.5'
+pod 'BaiduMapKit', '~> 3.2.1'
+pod 'IQKeyboardManager', '~> 4.0.8'
+pod 'KRVideoPlayer', '~> 1.0.1'
+pod 'pop', '~> 1.0.9'
+pod 'Masonry', '~> 1.0.2'
+pod 'MJRefresh', '~> 3.1.12'
+pod 'MagicalRecord', '~> 2.3.2'
+pod 'SVProgressHUD', '~> 2.1.2'
+#pod 'ReactiveCocoa', '~> 5.0.1'
+pod 'JPush'
+
+pod 'AMap3DMap'#3D地图SDK
+#pod 'AMap2DMap' #2D地图SDK (2D和3D不能同时使⽤用)
+pod 'AMapSearch' #搜索功能 end
+pod 'AMapLocation'
+end
+

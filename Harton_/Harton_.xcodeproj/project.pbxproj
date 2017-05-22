@@ -1,0 +1,1019 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23C1B10F2ABFEA707D24B99A /* libPods-Harton_.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 334D2CA8491AFAB2543034E6 /* libPods-Harton_.a */; };
+		948AE7011EC1A68E00DA75F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7001EC1A68E00DA75F4 /* main.m */; };
+		948AE70A1EC1A68E00DA75F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948AE7081EC1A68E00DA75F4 /* Main.storyboard */; };
+		948AE70D1EC1A68E00DA75F4 /* Harton_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 948AE70B1EC1A68E00DA75F4 /* Harton_.xcdatamodeld */; };
+		948AE70F1EC1A68E00DA75F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 948AE70E1EC1A68E00DA75F4 /* Assets.xcassets */; };
+		948AE7121EC1A68E00DA75F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 948AE7101EC1A68E00DA75F4 /* LaunchScreen.storyboard */; };
+		948AE71D1EC1A68E00DA75F4 /* Harton_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE71C1EC1A68E00DA75F4 /* Harton_Tests.m */; };
+		948AE7281EC1A68E00DA75F4 /* Harton_UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7271EC1A68E00DA75F4 /* Harton_UITests.m */; };
+		948AE79F1EC1A6FD00DA75F4 /* NSArray+HRSwizee.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE73E1EC1A6FC00DA75F4 /* NSArray+HRSwizee.m */; };
+		948AE7A01EC1A6FD00DA75F4 /* UIResponder+HRRoteMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7401EC1A6FC00DA75F4 /* UIResponder+HRRoteMessage.m */; };
+		948AE7A11EC1A6FD00DA75F4 /* UIView+DMTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7421EC1A6FC00DA75F4 /* UIView+DMTools.m */; };
+		948AE7A21EC1A6FD00DA75F4 /* HRAFNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7461EC1A6FC00DA75F4 /* HRAFNViewController.m */; };
+		948AE7A31EC1A6FD00DA75F4 /* HRAFNViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7481EC1A6FC00DA75F4 /* HRAFNViewModel.m */; };
+		948AE7A41EC1A6FD00DA75F4 /* HRBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE74B1EC1A6FC00DA75F4 /* HRBaseModel.m */; };
+		948AE7A51EC1A6FD00DA75F4 /* HRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE74D1EC1A6FC00DA75F4 /* HRBaseViewController.m */; };
+		948AE7A61EC1A6FD00DA75F4 /* HRBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE74F1EC1A6FC00DA75F4 /* HRBaseViewModel.m */; };
+		948AE7A71EC1A6FD00DA75F4 /* HRBKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7521EC1A6FC00DA75F4 /* HRBKViewController.m */; };
+		948AE7A81EC1A6FD00DA75F4 /* HRBKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE7531EC1A6FC00DA75F4 /* HRBKViewController.xib */; };
+		948AE7A91EC1A6FD00DA75F4 /* HRDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7571EC1A6FC00DA75F4 /* HRDBManager.m */; };
+		948AE7AA1EC1A6FD00DA75F4 /* HRFMDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7591EC1A6FC00DA75F4 /* HRFMDBModel.m */; };
+		948AE7AB1EC1A6FD00DA75F4 /* HRFMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE75B1EC1A6FC00DA75F4 /* HRFMDBViewController.m */; };
+		948AE7AC1EC1A6FD00DA75F4 /* HRMantleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE75E1EC1A6FC00DA75F4 /* HRMantleTableViewController.m */; };
+		948AE7AD1EC1A6FD00DA75F4 /* HRTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7601EC1A6FC00DA75F4 /* HRTagModel.m */; };
+		948AE7AE1EC1A6FD00DA75F4 /* MantleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7621EC1A6FC00DA75F4 /* MantleViewModel.m */; };
+		948AE7B31EC1A6FD00DA75F4 /* 150511_JiveBike.mov in Resources */ = {isa = PBXBuildFile; fileRef = 948AE76C1EC1A6FC00DA75F4 /* 150511_JiveBike.mov */; };
+		948AE7B41EC1A6FD00DA75F4 /* HRMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE76E1EC1A6FC00DA75F4 /* HRMPViewController.m */; };
+		948AE7B51EC1A6FD00DA75F4 /* HRCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7711EC1A6FC00DA75F4 /* HRCodingViewController.m */; };
+		948AE7B61EC1A6FD00DA75F4 /* HRPOPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7741EC1A6FC00DA75F4 /* HRPOPViewController.m */; };
+		948AE7B71EC1A6FD00DA75F4 /* HRPOPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE7751EC1A6FC00DA75F4 /* HRPOPViewController.xib */; };
+		948AE7B81EC1A6FD00DA75F4 /* HRMantleViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7781EC1A6FC00DA75F4 /* HRMantleViewModel.m */; };
+		948AE7B91EC1A6FD00DA75F4 /* HRRACDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE77A1EC1A6FC00DA75F4 /* HRRACDatabase.m */; };
+		948AE7BA1EC1A6FD00DA75F4 /* HRRACTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE77C1EC1A6FC00DA75F4 /* HRRACTableViewController.m */; };
+		948AE7BB1EC1A6FD00DA75F4 /* HRRACTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE77E1EC1A6FC00DA75F4 /* HRRACTestViewController.m */; };
+		948AE7BC1EC1A6FD00DA75F4 /* HRRACTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE77F1EC1A6FC00DA75F4 /* HRRACTestViewController.xib */; };
+		948AE7BD1EC1A6FD00DA75F4 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7811EC1A6FC00DA75F4 /* ListTableViewCell.m */; };
+		948AE7BE1EC1A6FD00DA75F4 /* ListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE7821EC1A6FC00DA75F4 /* ListTableViewCell.xib */; };
+		948AE7BF1EC1A6FD00DA75F4 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7841EC1A6FC00DA75F4 /* Model.m */; };
+		948AE7C01EC1A6FD00DA75F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7871EC1A6FC00DA75F4 /* AppDelegate.m */; };
+		948AE7C11EC1A6FD00DA75F4 /* HRHomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7891EC1A6FC00DA75F4 /* HRHomeViewModel.m */; };
+		948AE7C21EC1A6FD00DA75F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE78B1EC1A6FC00DA75F4 /* ViewController.m */; };
+		948AE7C81EC1A6FD00DA75F4 /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE7991EC1A6FC00DA75F4 /* Util.m */; };
+		948AE8181EC2ACA300DA75F4 /* HRMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE8111EC2ACA300DA75F4 /* HRMapManager.m */; };
+		948AE8191EC2ACA300DA75F4 /* HRMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE8131EC2ACA300DA75F4 /* HRMapViewController.m */; };
+		948AE81A1EC2ACA300DA75F4 /* HRMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE8141EC2ACA300DA75F4 /* HRMapViewController.xib */; };
+		948AE81B1EC2ACA300DA75F4 /* NCUserLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE8161EC2ACA300DA75F4 /* NCUserLocationManager.m */; };
+		948AE81F1EC2B20700DA75F4 /* HRGDMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE81D1EC2B20700DA75F4 /* HRGDMapViewController.m */; };
+		948AE8201EC2B20700DA75F4 /* HRGDMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE81E1EC2B20700DA75F4 /* HRGDMapViewController.xib */; };
+		948AE8261EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE8231EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.m */; };
+		948AE8271EC2E62400DA75F4 /* SMDatabaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE8251EC2E62400DA75F4 /* SMDatabaseManager.m */; };
+		948AE82A1EC2F23700DA75F4 /* HRAFNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 948AE8291EC2F23700DA75F4 /* HRAFNViewController.xib */; };
+		948AE8811EC5A54A00DA75F4 /* Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 948AE8801EC5A54900DA75F4 /* Notification.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		948AE7191EC1A68E00DA75F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948AE6F41EC1A68E00DA75F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948AE6FB1EC1A68E00DA75F4;
+			remoteInfo = Harton_;
+		};
+		948AE7241EC1A68E00DA75F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 948AE6F41EC1A68E00DA75F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 948AE6FB1EC1A68E00DA75F4;
+			remoteInfo = Harton_;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		334D2CA8491AFAB2543034E6 /* libPods-Harton_.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Harton_.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ADD4F1F611F09F17F1498BB /* Pods-Harton_.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Harton_.release.xcconfig"; path = "Pods/Target Support Files/Pods-Harton_/Pods-Harton_.release.xcconfig"; sourceTree = "<group>"; };
+		941FC2FEEFF9551A51121145 /* Pods-Harton_.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Harton_.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Harton_/Pods-Harton_.debug.xcconfig"; sourceTree = "<group>"; };
+		948AE6FC1EC1A68E00DA75F4 /* Harton_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harton_.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		948AE7001EC1A68E00DA75F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		948AE7091EC1A68E00DA75F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		948AE70C1EC1A68E00DA75F4 /* Harton_.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Harton_.xcdatamodel; sourceTree = "<group>"; };
+		948AE70E1EC1A68E00DA75F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		948AE7111EC1A68E00DA75F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		948AE7131EC1A68E00DA75F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948AE7181EC1A68E00DA75F4 /* Harton_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Harton_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948AE71C1EC1A68E00DA75F4 /* Harton_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Harton_Tests.m; sourceTree = "<group>"; };
+		948AE71E1EC1A68E00DA75F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948AE7231EC1A68E00DA75F4 /* Harton_UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Harton_UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		948AE7271EC1A68E00DA75F4 /* Harton_UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Harton_UITests.m; sourceTree = "<group>"; };
+		948AE7291EC1A68E00DA75F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948AE73D1EC1A6FC00DA75F4 /* NSArray+HRSwizee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HRSwizee.h"; sourceTree = "<group>"; };
+		948AE73E1EC1A6FC00DA75F4 /* NSArray+HRSwizee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HRSwizee.m"; sourceTree = "<group>"; };
+		948AE73F1EC1A6FC00DA75F4 /* UIResponder+HRRoteMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIResponder+HRRoteMessage.h"; sourceTree = "<group>"; };
+		948AE7401EC1A6FC00DA75F4 /* UIResponder+HRRoteMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIResponder+HRRoteMessage.m"; sourceTree = "<group>"; };
+		948AE7411EC1A6FC00DA75F4 /* UIView+DMTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DMTools.h"; sourceTree = "<group>"; };
+		948AE7421EC1A6FC00DA75F4 /* UIView+DMTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DMTools.m"; sourceTree = "<group>"; };
+		948AE7451EC1A6FC00DA75F4 /* HRAFNViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRAFNViewController.h; sourceTree = "<group>"; };
+		948AE7461EC1A6FC00DA75F4 /* HRAFNViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRAFNViewController.m; sourceTree = "<group>"; };
+		948AE7471EC1A6FC00DA75F4 /* HRAFNViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRAFNViewModel.h; sourceTree = "<group>"; };
+		948AE7481EC1A6FC00DA75F4 /* HRAFNViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRAFNViewModel.m; sourceTree = "<group>"; };
+		948AE74A1EC1A6FC00DA75F4 /* HRBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBaseModel.h; sourceTree = "<group>"; };
+		948AE74B1EC1A6FC00DA75F4 /* HRBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBaseModel.m; sourceTree = "<group>"; };
+		948AE74C1EC1A6FC00DA75F4 /* HRBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBaseViewController.h; sourceTree = "<group>"; };
+		948AE74D1EC1A6FC00DA75F4 /* HRBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBaseViewController.m; sourceTree = "<group>"; };
+		948AE74E1EC1A6FC00DA75F4 /* HRBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBaseViewModel.h; sourceTree = "<group>"; };
+		948AE74F1EC1A6FC00DA75F4 /* HRBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBaseViewModel.m; sourceTree = "<group>"; };
+		948AE7511EC1A6FC00DA75F4 /* HRBKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRBKViewController.h; sourceTree = "<group>"; };
+		948AE7521EC1A6FC00DA75F4 /* HRBKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRBKViewController.m; sourceTree = "<group>"; };
+		948AE7531EC1A6FC00DA75F4 /* HRBKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRBKViewController.xib; sourceTree = "<group>"; };
+		948AE7561EC1A6FC00DA75F4 /* HRDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRDBManager.h; sourceTree = "<group>"; };
+		948AE7571EC1A6FC00DA75F4 /* HRDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRDBManager.m; sourceTree = "<group>"; };
+		948AE7581EC1A6FC00DA75F4 /* HRFMDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRFMDBModel.h; sourceTree = "<group>"; };
+		948AE7591EC1A6FC00DA75F4 /* HRFMDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRFMDBModel.m; sourceTree = "<group>"; };
+		948AE75A1EC1A6FC00DA75F4 /* HRFMDBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRFMDBViewController.h; sourceTree = "<group>"; };
+		948AE75B1EC1A6FC00DA75F4 /* HRFMDBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRFMDBViewController.m; sourceTree = "<group>"; };
+		948AE75D1EC1A6FC00DA75F4 /* HRMantleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMantleTableViewController.h; sourceTree = "<group>"; };
+		948AE75E1EC1A6FC00DA75F4 /* HRMantleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMantleTableViewController.m; sourceTree = "<group>"; };
+		948AE75F1EC1A6FC00DA75F4 /* HRTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRTagModel.h; sourceTree = "<group>"; };
+		948AE7601EC1A6FC00DA75F4 /* HRTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRTagModel.m; sourceTree = "<group>"; };
+		948AE7611EC1A6FC00DA75F4 /* MantleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MantleViewModel.h; sourceTree = "<group>"; };
+		948AE7621EC1A6FC00DA75F4 /* MantleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MantleViewModel.m; sourceTree = "<group>"; };
+		948AE76C1EC1A6FC00DA75F4 /* 150511_JiveBike.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = 150511_JiveBike.mov; sourceTree = "<group>"; };
+		948AE76D1EC1A6FC00DA75F4 /* HRMPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMPViewController.h; sourceTree = "<group>"; };
+		948AE76E1EC1A6FC00DA75F4 /* HRMPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMPViewController.m; sourceTree = "<group>"; };
+		948AE7701EC1A6FC00DA75F4 /* HRCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRCodingViewController.h; sourceTree = "<group>"; };
+		948AE7711EC1A6FC00DA75F4 /* HRCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRCodingViewController.m; sourceTree = "<group>"; };
+		948AE7731EC1A6FC00DA75F4 /* HRPOPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRPOPViewController.h; sourceTree = "<group>"; };
+		948AE7741EC1A6FC00DA75F4 /* HRPOPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRPOPViewController.m; sourceTree = "<group>"; };
+		948AE7751EC1A6FC00DA75F4 /* HRPOPViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRPOPViewController.xib; sourceTree = "<group>"; };
+		948AE7771EC1A6FC00DA75F4 /* HRMantleViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMantleViewModel.h; sourceTree = "<group>"; };
+		948AE7781EC1A6FC00DA75F4 /* HRMantleViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMantleViewModel.m; sourceTree = "<group>"; };
+		948AE7791EC1A6FC00DA75F4 /* HRRACDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRRACDatabase.h; sourceTree = "<group>"; };
+		948AE77A1EC1A6FC00DA75F4 /* HRRACDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRRACDatabase.m; sourceTree = "<group>"; };
+		948AE77B1EC1A6FC00DA75F4 /* HRRACTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRRACTableViewController.h; sourceTree = "<group>"; };
+		948AE77C1EC1A6FC00DA75F4 /* HRRACTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRRACTableViewController.m; sourceTree = "<group>"; };
+		948AE77D1EC1A6FC00DA75F4 /* HRRACTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRRACTestViewController.h; sourceTree = "<group>"; };
+		948AE77E1EC1A6FC00DA75F4 /* HRRACTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRRACTestViewController.m; sourceTree = "<group>"; };
+		948AE77F1EC1A6FC00DA75F4 /* HRRACTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRRACTestViewController.xib; sourceTree = "<group>"; };
+		948AE7801EC1A6FC00DA75F4 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		948AE7811EC1A6FC00DA75F4 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		948AE7821EC1A6FC00DA75F4 /* ListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListTableViewCell.xib; sourceTree = "<group>"; };
+		948AE7831EC1A6FC00DA75F4 /* Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		948AE7841EC1A6FC00DA75F4 /* Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
+		948AE7861EC1A6FC00DA75F4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		948AE7871EC1A6FC00DA75F4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		948AE7881EC1A6FC00DA75F4 /* HRHomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRHomeViewModel.h; sourceTree = "<group>"; };
+		948AE7891EC1A6FC00DA75F4 /* HRHomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRHomeViewModel.m; sourceTree = "<group>"; };
+		948AE78A1EC1A6FC00DA75F4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		948AE78B1EC1A6FC00DA75F4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		948AE78E1EC1A6FC00DA75F4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		948AE7981EC1A6FC00DA75F4 /* Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
+		948AE7991EC1A6FC00DA75F4 /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		948AE8101EC2ACA300DA75F4 /* HRMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMapManager.h; sourceTree = "<group>"; };
+		948AE8111EC2ACA300DA75F4 /* HRMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMapManager.m; sourceTree = "<group>"; };
+		948AE8121EC2ACA300DA75F4 /* HRMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRMapViewController.h; sourceTree = "<group>"; };
+		948AE8131EC2ACA300DA75F4 /* HRMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRMapViewController.m; sourceTree = "<group>"; };
+		948AE8141EC2ACA300DA75F4 /* HRMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRMapViewController.xib; sourceTree = "<group>"; };
+		948AE8151EC2ACA300DA75F4 /* NCUserLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCUserLocationManager.h; sourceTree = "<group>"; };
+		948AE8161EC2ACA300DA75F4 /* NCUserLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCUserLocationManager.m; sourceTree = "<group>"; };
+		948AE81C1EC2B20700DA75F4 /* HRGDMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRGDMapViewController.h; sourceTree = "<group>"; };
+		948AE81D1EC2B20700DA75F4 /* HRGDMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRGDMapViewController.m; sourceTree = "<group>"; };
+		948AE81E1EC2B20700DA75F4 /* HRGDMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRGDMapViewController.xib; sourceTree = "<group>"; };
+		948AE8221EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MTLFMDBAdapter+Replace.h"; sourceTree = "<group>"; };
+		948AE8231EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MTLFMDBAdapter+Replace.m"; sourceTree = "<group>"; };
+		948AE8241EC2E62400DA75F4 /* SMDatabaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMDatabaseManager.h; sourceTree = "<group>"; };
+		948AE8251EC2E62400DA75F4 /* SMDatabaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMDatabaseManager.m; sourceTree = "<group>"; };
+		948AE8291EC2F23700DA75F4 /* HRAFNViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HRAFNViewController.xib; sourceTree = "<group>"; };
+		948AE87F1EC5A54900DA75F4 /* Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notification.h; sourceTree = "<group>"; };
+		948AE8801EC5A54900DA75F4 /* Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notification.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		948AE6F91EC1A68E00DA75F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23C1B10F2ABFEA707D24B99A /* libPods-Harton_.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AE7151EC1A68E00DA75F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AE7201EC1A68E00DA75F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		948AE6F31EC1A68E00DA75F4 = {
+			isa = PBXGroup;
+			children = (
+				948AE6FE1EC1A68E00DA75F4 /* Harton_ */,
+				948AE71B1EC1A68E00DA75F4 /* Harton_Tests */,
+				948AE7261EC1A68E00DA75F4 /* Harton_UITests */,
+				948AE6FD1EC1A68E00DA75F4 /* Products */,
+				9D6A9A89FFA4A9686E9AC255 /* Pods */,
+				FEBCBE9BDB2BD8D3BE9599B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		948AE6FD1EC1A68E00DA75F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				948AE6FC1EC1A68E00DA75F4 /* Harton_.app */,
+				948AE7181EC1A68E00DA75F4 /* Harton_Tests.xctest */,
+				948AE7231EC1A68E00DA75F4 /* Harton_UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		948AE6FE1EC1A68E00DA75F4 /* Harton_ */ = {
+			isa = PBXGroup;
+			children = (
+				948AE73C1EC1A6FC00DA75F4 /* Category */,
+				948AE7431EC1A6FC00DA75F4 /* Classess */,
+				948AE7981EC1A6FC00DA75F4 /* Util.h */,
+				948AE7991EC1A6FC00DA75F4 /* Util.m */,
+				948AE7081EC1A68E00DA75F4 /* Main.storyboard */,
+				948AE70E1EC1A68E00DA75F4 /* Assets.xcassets */,
+				948AE7101EC1A68E00DA75F4 /* LaunchScreen.storyboard */,
+				948AE7131EC1A68E00DA75F4 /* Info.plist */,
+				948AE70B1EC1A68E00DA75F4 /* Harton_.xcdatamodeld */,
+				948AE6FF1EC1A68E00DA75F4 /* Supporting Files */,
+			);
+			path = Harton_;
+			sourceTree = "<group>";
+		};
+		948AE6FF1EC1A68E00DA75F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7001EC1A68E00DA75F4 /* main.m */,
+				948AE78E1EC1A6FC00DA75F4 /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		948AE71B1EC1A68E00DA75F4 /* Harton_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				948AE71C1EC1A68E00DA75F4 /* Harton_Tests.m */,
+				948AE71E1EC1A68E00DA75F4 /* Info.plist */,
+			);
+			path = Harton_Tests;
+			sourceTree = "<group>";
+		};
+		948AE7261EC1A68E00DA75F4 /* Harton_UITests */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7271EC1A68E00DA75F4 /* Harton_UITests.m */,
+				948AE7291EC1A68E00DA75F4 /* Info.plist */,
+			);
+			path = Harton_UITests;
+			sourceTree = "<group>";
+		};
+		948AE73C1EC1A6FC00DA75F4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				948AE73D1EC1A6FC00DA75F4 /* NSArray+HRSwizee.h */,
+				948AE73E1EC1A6FC00DA75F4 /* NSArray+HRSwizee.m */,
+				948AE73F1EC1A6FC00DA75F4 /* UIResponder+HRRoteMessage.h */,
+				948AE7401EC1A6FC00DA75F4 /* UIResponder+HRRoteMessage.m */,
+				948AE7411EC1A6FC00DA75F4 /* UIView+DMTools.h */,
+				948AE7421EC1A6FC00DA75F4 /* UIView+DMTools.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		948AE7431EC1A6FC00DA75F4 /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				948AE87E1EC5A52100DA75F4 /* Notifications */,
+				948AE7441EC1A6FC00DA75F4 /* AFNetworking */,
+				948AE7491EC1A6FC00DA75F4 /* Base */,
+				948AE7501EC1A6FC00DA75F4 /* BlockKit */,
+				948AE7541EC1A6FC00DA75F4 /* FMDB */,
+				948AE75C1EC1A6FC00DA75F4 /* Mantle */,
+				948AE7631EC1A6FC00DA75F4 /* Map */,
+				948AE76B1EC1A6FC00DA75F4 /* MoviePlayer */,
+				948AE76F1EC1A6FC00DA75F4 /* NSCoding */,
+				948AE7721EC1A6FC00DA75F4 /* POP */,
+				948AE7761EC1A6FC00DA75F4 /* RAC */,
+				948AE7851EC1A6FC00DA75F4 /* system */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		948AE7441EC1A6FC00DA75F4 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7451EC1A6FC00DA75F4 /* HRAFNViewController.h */,
+				948AE7461EC1A6FC00DA75F4 /* HRAFNViewController.m */,
+				948AE8291EC2F23700DA75F4 /* HRAFNViewController.xib */,
+				948AE7471EC1A6FC00DA75F4 /* HRAFNViewModel.h */,
+				948AE7481EC1A6FC00DA75F4 /* HRAFNViewModel.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		948AE7491EC1A6FC00DA75F4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				948AE74A1EC1A6FC00DA75F4 /* HRBaseModel.h */,
+				948AE74B1EC1A6FC00DA75F4 /* HRBaseModel.m */,
+				948AE74C1EC1A6FC00DA75F4 /* HRBaseViewController.h */,
+				948AE74D1EC1A6FC00DA75F4 /* HRBaseViewController.m */,
+				948AE74E1EC1A6FC00DA75F4 /* HRBaseViewModel.h */,
+				948AE74F1EC1A6FC00DA75F4 /* HRBaseViewModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		948AE7501EC1A6FC00DA75F4 /* BlockKit */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7511EC1A6FC00DA75F4 /* HRBKViewController.h */,
+				948AE7521EC1A6FC00DA75F4 /* HRBKViewController.m */,
+				948AE7531EC1A6FC00DA75F4 /* HRBKViewController.xib */,
+			);
+			path = BlockKit;
+			sourceTree = "<group>";
+		};
+		948AE7541EC1A6FC00DA75F4 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				948AE8211EC2E62400DA75F4 /* Others */,
+				948AE7561EC1A6FC00DA75F4 /* HRDBManager.h */,
+				948AE7571EC1A6FC00DA75F4 /* HRDBManager.m */,
+				948AE7581EC1A6FC00DA75F4 /* HRFMDBModel.h */,
+				948AE7591EC1A6FC00DA75F4 /* HRFMDBModel.m */,
+				948AE75A1EC1A6FC00DA75F4 /* HRFMDBViewController.h */,
+				948AE75B1EC1A6FC00DA75F4 /* HRFMDBViewController.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		948AE75C1EC1A6FC00DA75F4 /* Mantle */ = {
+			isa = PBXGroup;
+			children = (
+				948AE75D1EC1A6FC00DA75F4 /* HRMantleTableViewController.h */,
+				948AE75E1EC1A6FC00DA75F4 /* HRMantleTableViewController.m */,
+				948AE75F1EC1A6FC00DA75F4 /* HRTagModel.h */,
+				948AE7601EC1A6FC00DA75F4 /* HRTagModel.m */,
+				948AE7611EC1A6FC00DA75F4 /* MantleViewModel.h */,
+				948AE7621EC1A6FC00DA75F4 /* MantleViewModel.m */,
+			);
+			path = Mantle;
+			sourceTree = "<group>";
+		};
+		948AE7631EC1A6FC00DA75F4 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				948AE80F1EC2ACA300DA75F4 /* 百度地图 */,
+				948AE8171EC2ACA300DA75F4 /* 高德地图 */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		948AE76B1EC1A6FC00DA75F4 /* MoviePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				948AE76C1EC1A6FC00DA75F4 /* 150511_JiveBike.mov */,
+				948AE76D1EC1A6FC00DA75F4 /* HRMPViewController.h */,
+				948AE76E1EC1A6FC00DA75F4 /* HRMPViewController.m */,
+			);
+			path = MoviePlayer;
+			sourceTree = "<group>";
+		};
+		948AE76F1EC1A6FC00DA75F4 /* NSCoding */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7701EC1A6FC00DA75F4 /* HRCodingViewController.h */,
+				948AE7711EC1A6FC00DA75F4 /* HRCodingViewController.m */,
+			);
+			path = NSCoding;
+			sourceTree = "<group>";
+		};
+		948AE7721EC1A6FC00DA75F4 /* POP */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7731EC1A6FC00DA75F4 /* HRPOPViewController.h */,
+				948AE7741EC1A6FC00DA75F4 /* HRPOPViewController.m */,
+				948AE7751EC1A6FC00DA75F4 /* HRPOPViewController.xib */,
+			);
+			path = POP;
+			sourceTree = "<group>";
+		};
+		948AE7761EC1A6FC00DA75F4 /* RAC */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7771EC1A6FC00DA75F4 /* HRMantleViewModel.h */,
+				948AE7781EC1A6FC00DA75F4 /* HRMantleViewModel.m */,
+				948AE7791EC1A6FC00DA75F4 /* HRRACDatabase.h */,
+				948AE77A1EC1A6FC00DA75F4 /* HRRACDatabase.m */,
+				948AE77B1EC1A6FC00DA75F4 /* HRRACTableViewController.h */,
+				948AE77C1EC1A6FC00DA75F4 /* HRRACTableViewController.m */,
+				948AE77D1EC1A6FC00DA75F4 /* HRRACTestViewController.h */,
+				948AE77E1EC1A6FC00DA75F4 /* HRRACTestViewController.m */,
+				948AE77F1EC1A6FC00DA75F4 /* HRRACTestViewController.xib */,
+				948AE7801EC1A6FC00DA75F4 /* ListTableViewCell.h */,
+				948AE7811EC1A6FC00DA75F4 /* ListTableViewCell.m */,
+				948AE7821EC1A6FC00DA75F4 /* ListTableViewCell.xib */,
+				948AE7831EC1A6FC00DA75F4 /* Model.h */,
+				948AE7841EC1A6FC00DA75F4 /* Model.m */,
+			);
+			path = RAC;
+			sourceTree = "<group>";
+		};
+		948AE7851EC1A6FC00DA75F4 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				948AE7861EC1A6FC00DA75F4 /* AppDelegate.h */,
+				948AE7871EC1A6FC00DA75F4 /* AppDelegate.m */,
+				948AE7881EC1A6FC00DA75F4 /* HRHomeViewModel.h */,
+				948AE7891EC1A6FC00DA75F4 /* HRHomeViewModel.m */,
+				948AE78A1EC1A6FC00DA75F4 /* ViewController.h */,
+				948AE78B1EC1A6FC00DA75F4 /* ViewController.m */,
+			);
+			path = system;
+			sourceTree = "<group>";
+		};
+		948AE80F1EC2ACA300DA75F4 /* 百度地图 */ = {
+			isa = PBXGroup;
+			children = (
+				948AE8101EC2ACA300DA75F4 /* HRMapManager.h */,
+				948AE8111EC2ACA300DA75F4 /* HRMapManager.m */,
+				948AE8121EC2ACA300DA75F4 /* HRMapViewController.h */,
+				948AE8131EC2ACA300DA75F4 /* HRMapViewController.m */,
+				948AE8141EC2ACA300DA75F4 /* HRMapViewController.xib */,
+				948AE8151EC2ACA300DA75F4 /* NCUserLocationManager.h */,
+				948AE8161EC2ACA300DA75F4 /* NCUserLocationManager.m */,
+			);
+			path = "百度地图";
+			sourceTree = "<group>";
+		};
+		948AE8171EC2ACA300DA75F4 /* 高德地图 */ = {
+			isa = PBXGroup;
+			children = (
+				948AE81C1EC2B20700DA75F4 /* HRGDMapViewController.h */,
+				948AE81D1EC2B20700DA75F4 /* HRGDMapViewController.m */,
+				948AE81E1EC2B20700DA75F4 /* HRGDMapViewController.xib */,
+			);
+			path = "高德地图";
+			sourceTree = "<group>";
+		};
+		948AE8211EC2E62400DA75F4 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				948AE8221EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.h */,
+				948AE8231EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.m */,
+				948AE8241EC2E62400DA75F4 /* SMDatabaseManager.h */,
+				948AE8251EC2E62400DA75F4 /* SMDatabaseManager.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		948AE87E1EC5A52100DA75F4 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				948AE87F1EC5A54900DA75F4 /* Notification.h */,
+				948AE8801EC5A54900DA75F4 /* Notification.m */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		9D6A9A89FFA4A9686E9AC255 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				941FC2FEEFF9551A51121145 /* Pods-Harton_.debug.xcconfig */,
+				8ADD4F1F611F09F17F1498BB /* Pods-Harton_.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FEBCBE9BDB2BD8D3BE9599B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				334D2CA8491AFAB2543034E6 /* libPods-Harton_.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		948AE6FB1EC1A68E00DA75F4 /* Harton_ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948AE72C1EC1A68E00DA75F4 /* Build configuration list for PBXNativeTarget "Harton_" */;
+			buildPhases = (
+				43EB1D1E95DD0730A80D2ECA /* [CP] Check Pods Manifest.lock */,
+				948AE6F81EC1A68E00DA75F4 /* Sources */,
+				948AE6F91EC1A68E00DA75F4 /* Frameworks */,
+				948AE6FA1EC1A68E00DA75F4 /* Resources */,
+				5F0C2A47EFF4B6A4642F6575 /* [CP] Embed Pods Frameworks */,
+				61EFDE11B98039275F0E0988 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harton_;
+			productName = Harton_;
+			productReference = 948AE6FC1EC1A68E00DA75F4 /* Harton_.app */;
+			productType = "com.apple.product-type.application";
+		};
+		948AE7171EC1A68E00DA75F4 /* Harton_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948AE72F1EC1A68E00DA75F4 /* Build configuration list for PBXNativeTarget "Harton_Tests" */;
+			buildPhases = (
+				948AE7141EC1A68E00DA75F4 /* Sources */,
+				948AE7151EC1A68E00DA75F4 /* Frameworks */,
+				948AE7161EC1A68E00DA75F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948AE71A1EC1A68E00DA75F4 /* PBXTargetDependency */,
+			);
+			name = Harton_Tests;
+			productName = Harton_Tests;
+			productReference = 948AE7181EC1A68E00DA75F4 /* Harton_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		948AE7221EC1A68E00DA75F4 /* Harton_UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 948AE7321EC1A68E00DA75F4 /* Build configuration list for PBXNativeTarget "Harton_UITests" */;
+			buildPhases = (
+				948AE71F1EC1A68E00DA75F4 /* Sources */,
+				948AE7201EC1A68E00DA75F4 /* Frameworks */,
+				948AE7211EC1A68E00DA75F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				948AE7251EC1A68E00DA75F4 /* PBXTargetDependency */,
+			);
+			name = Harton_UITests;
+			productName = Harton_UITests;
+			productReference = 948AE7231EC1A68E00DA75F4 /* Harton_UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		948AE6F41EC1A68E00DA75F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GCX365;
+				TargetAttributes = {
+					948AE6FB1EC1A68E00DA75F4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = W8Q5AYB2GK;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					948AE7171EC1A68E00DA75F4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = W8Q5AYB2GK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 948AE6FB1EC1A68E00DA75F4;
+					};
+					948AE7221EC1A68E00DA75F4 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = W8Q5AYB2GK;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 948AE6FB1EC1A68E00DA75F4;
+					};
+				};
+			};
+			buildConfigurationList = 948AE6F71EC1A68E00DA75F4 /* Build configuration list for PBXProject "Harton_" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 948AE6F31EC1A68E00DA75F4;
+			productRefGroup = 948AE6FD1EC1A68E00DA75F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				948AE6FB1EC1A68E00DA75F4 /* Harton_ */,
+				948AE7171EC1A68E00DA75F4 /* Harton_Tests */,
+				948AE7221EC1A68E00DA75F4 /* Harton_UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		948AE6FA1EC1A68E00DA75F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948AE7B31EC1A6FD00DA75F4 /* 150511_JiveBike.mov in Resources */,
+				948AE7121EC1A68E00DA75F4 /* LaunchScreen.storyboard in Resources */,
+				948AE82A1EC2F23700DA75F4 /* HRAFNViewController.xib in Resources */,
+				948AE8201EC2B20700DA75F4 /* HRGDMapViewController.xib in Resources */,
+				948AE7A81EC1A6FD00DA75F4 /* HRBKViewController.xib in Resources */,
+				948AE7BC1EC1A6FD00DA75F4 /* HRRACTestViewController.xib in Resources */,
+				948AE7BE1EC1A6FD00DA75F4 /* ListTableViewCell.xib in Resources */,
+				948AE7B71EC1A6FD00DA75F4 /* HRPOPViewController.xib in Resources */,
+				948AE70F1EC1A68E00DA75F4 /* Assets.xcassets in Resources */,
+				948AE81A1EC2ACA300DA75F4 /* HRMapViewController.xib in Resources */,
+				948AE70A1EC1A68E00DA75F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AE7161EC1A68E00DA75F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AE7211EC1A68E00DA75F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43EB1D1E95DD0730A80D2ECA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F0C2A47EFF4B6A4642F6575 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Harton_/Pods-Harton_-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61EFDE11B98039275F0E0988 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Harton_/Pods-Harton_-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		948AE6F81EC1A68E00DA75F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948AE7B61EC1A6FD00DA75F4 /* HRPOPViewController.m in Sources */,
+				948AE79F1EC1A6FD00DA75F4 /* NSArray+HRSwizee.m in Sources */,
+				948AE7BF1EC1A6FD00DA75F4 /* Model.m in Sources */,
+				948AE7BB1EC1A6FD00DA75F4 /* HRRACTestViewController.m in Sources */,
+				948AE7A01EC1A6FD00DA75F4 /* UIResponder+HRRoteMessage.m in Sources */,
+				948AE7A71EC1A6FD00DA75F4 /* HRBKViewController.m in Sources */,
+				948AE8271EC2E62400DA75F4 /* SMDatabaseManager.m in Sources */,
+				948AE8261EC2E62400DA75F4 /* MTLFMDBAdapter+Replace.m in Sources */,
+				948AE8811EC5A54A00DA75F4 /* Notification.m in Sources */,
+				948AE7AA1EC1A6FD00DA75F4 /* HRFMDBModel.m in Sources */,
+				948AE7B91EC1A6FD00DA75F4 /* HRRACDatabase.m in Sources */,
+				948AE81B1EC2ACA300DA75F4 /* NCUserLocationManager.m in Sources */,
+				948AE7A61EC1A6FD00DA75F4 /* HRBaseViewModel.m in Sources */,
+				948AE7BD1EC1A6FD00DA75F4 /* ListTableViewCell.m in Sources */,
+				948AE7B51EC1A6FD00DA75F4 /* HRCodingViewController.m in Sources */,
+				948AE7A11EC1A6FD00DA75F4 /* UIView+DMTools.m in Sources */,
+				948AE7AD1EC1A6FD00DA75F4 /* HRTagModel.m in Sources */,
+				948AE7A21EC1A6FD00DA75F4 /* HRAFNViewController.m in Sources */,
+				948AE7C21EC1A6FD00DA75F4 /* ViewController.m in Sources */,
+				948AE8191EC2ACA300DA75F4 /* HRMapViewController.m in Sources */,
+				948AE7A51EC1A6FD00DA75F4 /* HRBaseViewController.m in Sources */,
+				948AE7C81EC1A6FD00DA75F4 /* Util.m in Sources */,
+				948AE7A41EC1A6FD00DA75F4 /* HRBaseModel.m in Sources */,
+				948AE7AB1EC1A6FD00DA75F4 /* HRFMDBViewController.m in Sources */,
+				948AE7BA1EC1A6FD00DA75F4 /* HRRACTableViewController.m in Sources */,
+				948AE7AC1EC1A6FD00DA75F4 /* HRMantleTableViewController.m in Sources */,
+				948AE7011EC1A68E00DA75F4 /* main.m in Sources */,
+				948AE70D1EC1A68E00DA75F4 /* Harton_.xcdatamodeld in Sources */,
+				948AE7A31EC1A6FD00DA75F4 /* HRAFNViewModel.m in Sources */,
+				948AE7B41EC1A6FD00DA75F4 /* HRMPViewController.m in Sources */,
+				948AE8181EC2ACA300DA75F4 /* HRMapManager.m in Sources */,
+				948AE7AE1EC1A6FD00DA75F4 /* MantleViewModel.m in Sources */,
+				948AE7C11EC1A6FD00DA75F4 /* HRHomeViewModel.m in Sources */,
+				948AE81F1EC2B20700DA75F4 /* HRGDMapViewController.m in Sources */,
+				948AE7A91EC1A6FD00DA75F4 /* HRDBManager.m in Sources */,
+				948AE7B81EC1A6FD00DA75F4 /* HRMantleViewModel.m in Sources */,
+				948AE7C01EC1A6FD00DA75F4 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AE7141EC1A68E00DA75F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948AE71D1EC1A68E00DA75F4 /* Harton_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		948AE71F1EC1A68E00DA75F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				948AE7281EC1A68E00DA75F4 /* Harton_UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		948AE71A1EC1A68E00DA75F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948AE6FB1EC1A68E00DA75F4 /* Harton_ */;
+			targetProxy = 948AE7191EC1A68E00DA75F4 /* PBXContainerItemProxy */;
+		};
+		948AE7251EC1A68E00DA75F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 948AE6FB1EC1A68E00DA75F4 /* Harton_ */;
+			targetProxy = 948AE7241EC1A68E00DA75F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		948AE7081EC1A68E00DA75F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948AE7091EC1A68E00DA75F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		948AE7101EC1A68E00DA75F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				948AE7111EC1A68E00DA75F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		948AE72A1EC1A68E00DA75F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		948AE72B1EC1A68E00DA75F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		948AE72D1EC1A68E00DA75F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941FC2FEEFF9551A51121145 /* Pods-Harton_.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8Q5AYB2GK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Harton_/PrefixHeader.pch;
+				INFOPLIST_FILE = Harton_/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harton.Harton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		948AE72E1EC1A68E00DA75F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ADD4F1F611F09F17F1498BB /* Pods-Harton_.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W8Q5AYB2GK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Harton_/PrefixHeader.pch;
+				INFOPLIST_FILE = Harton_/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Harton.Harton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		948AE7301EC1A68E00DA75F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W8Q5AYB2GK;
+				INFOPLIST_FILE = Harton_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Harton.Harton-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harton_.app/Harton_";
+			};
+			name = Debug;
+		};
+		948AE7311EC1A68E00DA75F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = W8Q5AYB2GK;
+				INFOPLIST_FILE = Harton_Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Harton.Harton-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harton_.app/Harton_";
+			};
+			name = Release;
+		};
+		948AE7331EC1A68E00DA75F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W8Q5AYB2GK;
+				INFOPLIST_FILE = Harton_UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Harton.Harton-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Harton_;
+			};
+			name = Debug;
+		};
+		948AE7341EC1A68E00DA75F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = W8Q5AYB2GK;
+				INFOPLIST_FILE = Harton_UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Harton.Harton-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Harton_;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		948AE6F71EC1A68E00DA75F4 /* Build configuration list for PBXProject "Harton_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948AE72A1EC1A68E00DA75F4 /* Debug */,
+				948AE72B1EC1A68E00DA75F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948AE72C1EC1A68E00DA75F4 /* Build configuration list for PBXNativeTarget "Harton_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948AE72D1EC1A68E00DA75F4 /* Debug */,
+				948AE72E1EC1A68E00DA75F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948AE72F1EC1A68E00DA75F4 /* Build configuration list for PBXNativeTarget "Harton_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948AE7301EC1A68E00DA75F4 /* Debug */,
+				948AE7311EC1A68E00DA75F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		948AE7321EC1A68E00DA75F4 /* Build configuration list for PBXNativeTarget "Harton_UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				948AE7331EC1A68E00DA75F4 /* Debug */,
+				948AE7341EC1A68E00DA75F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		948AE70B1EC1A68E00DA75F4 /* Harton_.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				948AE70C1EC1A68E00DA75F4 /* Harton_.xcdatamodel */,
+			);
+			currentVersion = 948AE70C1EC1A68E00DA75F4 /* Harton_.xcdatamodel */;
+			path = Harton_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 948AE6F41EC1A68E00DA75F4 /* Project object */;
+}
