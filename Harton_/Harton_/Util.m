@@ -344,7 +344,7 @@
 }
 
 + (void)test {
-    
+    NSLog(@"I am git Test");
 }
 
 @end
