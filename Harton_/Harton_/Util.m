@@ -347,6 +347,9 @@
     NSLog(@"I am git Test");
     
     NSLog(@"Test CHenkOut");
+    
+    
+    NSLog(@"quxiang xiang qian ");
 }
 
 @end
