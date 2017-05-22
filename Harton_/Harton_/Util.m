@@ -343,6 +343,8 @@
     return result;
 }
 
-
++ (void)test {
+    
+}
 
 @end
